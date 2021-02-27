@@ -1,0 +1,27 @@
+#title {
+    background-color: black;
+    color: yellow;
+    min-height: 600px;
+}
+
+.back-cover {
+    width: 90%;
+    background: yellow;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.title-image {
+    background: white;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.title-image img{
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 0.7rem
+}
