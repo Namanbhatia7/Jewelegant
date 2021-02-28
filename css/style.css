@@ -1,5 +1,6 @@
-body{
+body,html{
     font-family: poppins;
+    height: 100%;
 }
 
 #title {
@@ -67,6 +68,10 @@ p#tagline {
     font-weight: 500;
     width: 6rem;
     margin-top: 2rem;
+}
+
+.bg-image{
+    
 }
 
 /* Navbar */
