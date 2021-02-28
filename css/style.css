@@ -168,3 +168,53 @@ section#Collections {
     width: 13rem;
     margin-top: 4rem;
 }
+
+/* SERVICES section */
+
+section#Services {
+    min-height: 600px;
+    text-align: center;
+    background: #000000;
+}
+
+#Services h1{
+    font-family: 'Lato';
+    font-weight: 600;
+    margin-bottom: 1rem;
+    word-spacing: 9px;
+    letter-spacing: 1px;
+    font-size: 2.8rem;
+    color: #e2d80e;
+    padding-top: 2rem;
+}
+
+#Services p {
+    color: darkgray;
+    margin-bottom: 3.5rem;
+    font-size: 1rem;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 4rem;
+    color: #e2d80e;
+    background: -webkit-linear-gradient(70deg, rgba(210,158,19,1) 27%, rgba(226,216,14,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+#Services h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#Services .row{
+    padding: 1rem;
+}
+
+#Services .row p{
+    font-size: 0.9rem;
+}
