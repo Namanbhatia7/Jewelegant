@@ -8,7 +8,7 @@ html {
 }
 
 h1{
-    font-family: "lato";
+    font-family: "katibeh";
 }
 
 #title {
@@ -49,6 +49,7 @@ h1#heading {
     font-size: 4.5rem;
     color: antiquewhite;
     font-weight: 700;
+    font-family: "lato"
 }
 
 h1#heading span {
