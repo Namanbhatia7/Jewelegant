@@ -20,6 +20,7 @@ h1{
     justify-content: center;
     padding: 0.5rem;
     margin-top: 2rem;
+    margin-block-end: 3rem;
     border-radius: 0.5rem 0 0.5rem 0;
 }
 
@@ -71,7 +72,7 @@ p#tagline {
     font-weight: 500;
     width: 6rem;
     margin-top: 2rem;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 .bg-image{
@@ -144,8 +145,10 @@ section#Collections {
     padding-top: 2rem;
 }
 
-#Collections p{
+#Collections p {
     color: darkgray;
+    position: relative;
+    bottom: -120px;
 }
 
 #Collections .card-img-overlay {
@@ -168,8 +171,8 @@ section#Collections {
     font-family: 'Poppins';
     font-weight: 500;
     width: 13rem;
-    margin-top: 4rem;
-    transition: 0.3s;
+    margin-top: 3rem;
+    transition: 0.3s ease-in-out;
 }
 
 /* SERVICES section */
@@ -187,7 +190,7 @@ section#Services {
     letter-spacing: 1px;
     font-size: 2.8rem;
     color: #e2d80e;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 #Services p {
@@ -393,4 +396,51 @@ navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hove
 #Collections .btn-primary:hover {
     background: rgba(128, 128, 128, 0);
     border: solid 1px #d4a513;
+}
+
+.head:after{
+        display: block;
+        height: 3px;
+        background-color: #d4a513;
+        content: " ";
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+}
+
+a.navbar-brand {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-weight: 700;
+    background: #d4a513;
+    background: linear-gradient(to right, #e2d80e, #d3a013 50%, #ffffff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+a.navbar-brand:hover {
+    background-position: 0 100%;
+}
+
+.col-lg-6.right-head {
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    left: 30px;
+}
+
+.card.bg-dark.text-white {
+    margin-block-end: 2rem;
+}
+
+h5.card-title {
+    /* font-size: 1.5rem; */
+    position: relative;
+    bottom: -45px;
 }
