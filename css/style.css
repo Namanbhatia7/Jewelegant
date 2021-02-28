@@ -86,7 +86,7 @@ a.navbar-brand {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(226 216 14);
+    color: rgb(158 158 157);
 }
 
 .navbar-dark .navbar-brand {
@@ -346,4 +346,37 @@ i.fas.fa-quote-left {
     font-size: 1rem;
     margin-top: 3rem;
 
+}
+
+/* Anchor Tag Styling */
+
+.navbar-collapse a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #d4a513;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.navbar-collapse a:after{
+    content: "";
+    position: absolute;
+    background-color: #d4a513;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbar-collapse a:hover{
+    color: #d4a513;
+}
+.navbar-collapse a:hover:after{
+    width: 100%;
+}
+
+navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #d4a513;
 }
