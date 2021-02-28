@@ -3,6 +3,10 @@ body,html{
     height: 100%;
 }
 
+h1{
+    font-family: "lato";
+}
+
 #title {
     background-color: black;
     color: yellow;
@@ -36,7 +40,6 @@ body,html{
 }
 
 h1#heading {
-    font-family: lato;
     font-size: 4.5rem;
     color: antiquewhite;
     font-weight: 700;
@@ -101,7 +104,6 @@ section#AboutUs {
 }
 
 #AboutUs h1 {
-    font-family: 'Lato';
     font-weight: 600;
     margin-top: 4rem;
     margin-bottom: 3rem;
@@ -131,7 +133,6 @@ section#Collections {
 }
 
 #Collections h1{
-    font-family: 'Lato';
     font-weight: 600;
     margin-top: 4rem;
     margin-bottom: 1rem;
@@ -178,7 +179,6 @@ section#Services {
 }
 
 #Services h1{
-    font-family: 'Lato';
     font-weight: 600;
     margin-bottom: 1rem;
     word-spacing: 9px;
@@ -230,7 +230,6 @@ section#Clients {
 }
 
 #Clients h1 {
-    font-family: 'Lato';
     font-weight: 600;
     margin-top: 4rem;
     word-spacing: 9px;
@@ -317,4 +316,34 @@ i.fas.fa-quote-left {
     font-size: 15px;
     line-height: 30px;
     text-align: initial;
+}
+
+/* Footer */
+
+#ContactUs {
+    min-height: 200px;
+    text-align: center;
+    background: #000000;
+}
+
+#ContactUs i {
+    color: #d29e13;
+    font-size: 2rem;
+    margin: 3rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+#ContactUs h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #d29e13;
+    padding-top: 1rem;
+}
+
+#ContactUs p{
+    color: #d29e13;
+    font-size: 1rem;
+    margin-top: 3rem;
+
 }
