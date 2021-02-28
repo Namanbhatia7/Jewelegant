@@ -16,7 +16,7 @@ h1{
 .back-cover {
     width: 90%;
     background: rgb(210,158,19);
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     background: linear-gradient(45deg, rgba(210,158,19,1) 27%, rgba(226,216,14,1) 100%);
     justify-content: center;
     padding: 0.5rem;
