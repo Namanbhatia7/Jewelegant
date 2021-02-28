@@ -147,8 +147,6 @@ section#Collections {
 
 #Collections p {
     color: darkgray;
-    position: relative;
-    bottom: -120px;
 }
 
 #Collections .card-img-overlay {
@@ -439,8 +437,3 @@ a.navbar-brand:hover {
     margin-block-end: 2rem;
 }
 
-h5.card-title {
-    /* font-size: 1.5rem; */
-    position: relative;
-    bottom: -45px;
-}
